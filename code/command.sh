@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function project () {
-    cd "/Users/gabrielsgaspar/Projects/personal_projects/terminal_automation/code"
+    cd "/Users/gabrielsgaspar/Projects/personal_projects/shell_automation/code"
     source .env
     python instructions.py $1
     cd $PROJECT_PATH/$1
